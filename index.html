@@ -1,0 +1,682 @@
+<!DOCTYPE html>
+<html class="fix">
+
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+	<meta name="applicable-device" content="mobile" />
+	<title>OFweek移动版 - 中国高科技行业综合门户</title>
+	<meta name="keywords" content="半导体照明,LED,照明,太阳能光伏,光伏,激光,电子工程,电子,光纤、光通讯,通信,信息,软件、工控,自动化、仪器仪表,PLC,变频器,机器人,风电,风力发电,智能电网,电力,电源、节能,合同能源管理,显示,光学,环保、新能源、新材料、物联网">
+	<meta name="description" content="OFweek中国高科技行业综合门户网站，是中国高科技行业领域具有深度影响力的门户网站和服务平台。现拥有行业会员1000万余名，网站及时报道行业动态,行业大事件，深入跟进行业热点，提供行业会员全面的资讯，技术和管理资源，举办各类线下、线上行业活动，并为高科技行业企业提供广告、PR 数据、人才、培训、展览和会议、内外贸、产品直销与采购、行业咨询、研究报告、投融资等整体和专业的服务。">
+	<link rel="canonical" href="http://www.ofweek.com/" />
+	<link rel="apple-touch-icon-precomposed" href="http://m.ofweek.com/newsite/images/favicon.png">
+
+	<link rel="icon" href="http://m.ofweek.com/newsite/images/favicon.png">
+	<link rel="stylesheet" type="text/css" href="http://m.ofweek.com/newsite/css/swiper.min.css">
+	<link rel="stylesheet" type="text/css" href="css/main.css?v=20170929">
+	<script type="text/javascript" src="http://m.ofweek.com/newsite/js/resize.js"></script>
+	<script type="text/javascript" src="http://m.ofweek.com/newsite/js/prefixfree.min.js"></script>
+</head>
+<style>
+</style>
+
+<body>
+	<input type="hidden" name="siteflag" id="siteflag" value="index" />
+	<input type="hidden" name="newstype" id="newstype" value="100" />
+	<input type="hidden" id="isFirstPageLoaded" value="100" />
+	<a style="display:none;" href="http://m.solar.ofweek.com">太阳能光伏</a>
+	<a style="display:none;" href="http://m.robot.ofweek.com">机器人</a>
+	<a style="display:none;" href="http://m.laser.ofweek.com">激光</a>
+	<a style="display:none;" href="http://m.libattery.ofweek.com">锂电</a>
+	<a style="display:none;" href="http://m.fiber.ofweek.com">光通讯</a>
+	<a style="display:none;" href="http://m.znyj.ofweek.com">智能硬件</a>
+	<a style="display:none;" href="http://m.lights.ofweek.com">半导体照明</a>
+	<a style="display:none;" href="http://m.iot.ofweek.com">物联网</a>
+	<a style="display:none;" href="http://m.gongkong.ofweek.com">工控</a>
+	<a style="display:none;" href="http://m.medical.ofweek.com">医疗科技</a>
+	<a style="display:none;" href="http://m.ai.ofweek.com">人工智能</a>
+	<a style="display:none;" href="http://m.ee.ofweek.com">电子工程</a>
+	<a style="display:none;" href="http://m.wearable.ofweek.com">可穿戴设备</a>
+	<a style="display:none;" href="http://m.smarthome.ofweek.com">智能家居</a>
+	<a style="display:none;" href="http://m.3dprint.ofweek.com">3D打印</a>
+	<a style="display:none;" href="http://m.display.ofweek.com">显示</a>
+	<a style="display:none;" href="http://m.sensor.ofweek.com">传感器</a>
+	<a style="display:none;" href="http://m.ecep.ofweek.com">节能环保</a>
+	<a style="display:none;" href="http://m.nev.ofweek.com">新能源汽车</a>
+	<a style="display:none;" href="http://m.instrument.ofweek.com">仪器仪表</a>
+	<a style="display:none;" href="http://m.security.ofweek.com">安防</a>
+	<a style="display:none;" href="http://m.vr.ofweek.com">VR</a>
+	<a style="display:none;" href="http://m.windpower.ofweek.com">风电</a>
+	<a style="display:none;" href="http://m.smartgrids.ofweek.com">智能电网</a>
+	<a style="display:none;" href="http://m.auto.ofweek.com">汽车科技</a>
+	<a style="display:none;" href="http://m.cloud.ofweek.com">云计算</a>
+	<header id="header" class="clearfix">
+		<div class="head-l">
+			<div class="login fl">
+				<a href="javascript:login();">
+					<img src="images/circle.png">
+				</a>
+			</div>
+			<div class="logo fl">
+				<a href="javascript:;">
+					<img src="images/Page-1.png">
+				</a>
+			</div>
+			<div class="head-r fr">
+				<a href="http://m.ofweek.com/search.html" class="search"></a>
+			</div>
+		</div>
+	</header>
+	<!-- <div class="drop-menu">
+		<nav class="drop-nav drop-index-nav">
+
+			<div class="drop-wrap">
+				<dl class="channel">
+					<dt>频道</dt>
+					<dd>
+						<a href="/news/newsCenter">新闻</a>
+						<a href="/CATList-8400-SHICHANGYUANJIU.html">市场</a>
+						<a href="/CATListNew-73000-0.html">技术</a>
+						<a href="/CATListNew-74000-0.html">应用</a>
+						<a href="/newslist-finance.html">财经</a>
+						<a href="/CATList-8600-GAODUANFANGTAN.html">访谈</a>
+						<a href="/CATListNew-29000-19000.html">新品</a>
+						<a href="/newslist-exhibition.html">展会</a>
+					</dd>
+				</dl>
+				<dl>
+					<dt>推荐</dt>
+					<dd>
+						<a href="http://m.ofweek.com/productcenter">产品试用</a>
+					</dd>
+				</dl>
+			</div>
+		</nav>
+		<div class="mask"></div>
+	</div> -->
+	<div id="wrapper">
+		<div id="scroller">
+			<nav class="index-nav">
+				<ul>
+					<li>
+						<a href="javascript:;" style="color: red;">推荐</a>
+					</li>
+					 <!-- <li><a href="sub_index.html">机器人</a></li>
+						<li><a href="#">光伏</a></li>
+						<li><a href="#">锂电</a></li>
+						<li><a href="#">智能家居</a></li>
+						<li><a href="#">激光</a></li>
+						<li><a href="#">智能硬件</a></li>
+						<li><a href="#">LED</a></li>
+						<li><a href="#">物联网</a></li>
+						<li><a href="#">光通讯</a></li>
+						<li><a href="#">3D打印</a></li>
+						<li><a href="#">工控</a></li>
+						<li><a href="#">医疗</a></li>
+						<li><a href="#">安防</a></li>
+						<li><a href="#">电子</a></li> -->
+					<li class="more-nav">
+						<a href="/industry.html"></a>
+					</li>
+				</ul>
+			</nav>
+			<!--轮播 开始-->
+			<section class="main-swiper" style="padding: 0 .3rem">
+				<div class="swiper-container">
+					<div class="swiper-wrapper" id="focusPicNewsList">
+						<div class="swiper-slide">
+							<a href="http://m.nev.ofweek.com/2018-02/ART-71008-8500-30197851.html">
+								<img src="http://m.images.ofweek.com/Upload/News/2018-2/summary/2018269222688.jpg">
+							</a>
+							<p>
+								<a href="http://m.nev.ofweek.com/2018-02/ART-71008-8500-30197851.html">逐鹿新能源车：奔驰宝马谁更胜一筹</a>
+							</p>
+						</div>
+						<div class="swiper-slide">
+							<a href="http://m.display.ofweek.com/2018-02/ART-8321303-8420-30197781.html">
+								<img src="http://m.images.ofweek.com/Upload/News/2018-2/summary/20182684915593.jpg">
+							</a>
+							<p>
+								<a href="http://m.display.ofweek.com/2018-02/ART-8321303-8420-30197781.html">2017年中国厂商OLED面板出货量近1000万片</a>
+							</p>
+						</div>
+						<div class="swiper-slide">
+							<a href="http://m.libattery.ofweek.com/2018-02/ART-36001-8120-30197761.html">
+								<img src="http://m.images.ofweek.com/Upload/News/2018-2/summary/20182691527632.jpg">
+							</a>
+							<p>
+								<a href="http://m.libattery.ofweek.com/2018-02/ART-36001-8120-30197761.html">规模化回收利用动力电池第一枪已打响</a>
+							</p>
+						</div>
+						<div class="swiper-slide">
+							<a href="http://m.fiber.ofweek.com/2018-02/ART-210007-8500-30197726.html">
+								<img src="http://m.images.ofweek.com/Upload/News/2018-2/summary/20182695556110.jpg">
+							</a>
+							<p>
+								<a href="http://m.fiber.ofweek.com/2018-02/ART-210007-8500-30197726.html">5G可期 翘首以盼移动行业变革将来</a>
+							</p>
+						</div>
+						<div class="swiper-slide">
+							<a href="http://m.smartcity.ofweek.com/news/2018-02/ART-201822-8470-30197618.html">
+								<img src="http://m.images.ofweek.com/Upload/News/2018-2/summary/201825145724398.jpg">
+							</a>
+							<p>
+								<a href="http://m.smartcity.ofweek.com/news/2018-02/ART-201822-8470-30197618.html">数字城管点亮智慧城市</a>
+							</p>
+						</div>
+					</div>
+				</div>
+
+			</section>
+			<!--轮播 结束-->
+			<!-- 功能模块 -->
+			<div class="hot-nav clearfix">
+				<div id="hot-items-wrap">
+					<ul class="hot-items">
+						<li>
+							<a href="http://expo.ofweek.com/wap/hall.xhtml">
+								<img src="images/Group 4.png" alt="">
+								<p>品牌展厅</p>
+							</a>
+						</li>
+						<li>
+							<a href="http://expo.ofweek.com/wap/index.xhtml">
+								<img src="images/Group.png" alt="">
+								<p>在线展</p>
+							</a>
+						</li>
+						<li>
+							<a href="http://live.ofweek.com/wap/">
+								<img src="images/Group 5.png" alt="">
+								<p>直播</p>
+							</a>
+						</li>
+						<li>
+							<a href="http://mall.ofweek.com/">
+								<img src="images/Group 6.png" alt="">
+								<p>商城</p>
+							</a>
+						</li>
+						<li>
+							<a href="http://m.mp.ofweek.com">
+								<img src="images/Group 10 Copy.png" alt="">
+								<p>公众平台</p>
+							</a>
+						</li>
+						<li>
+							<a href="http://park.ofweek.com">
+								<img src="images/Group 7.png" alt="">
+								<p>产业园</p>
+							</a>
+						</li>
+						<li>
+							<a href="http://m.seminar.ofweek.com/">
+								<img src="images/Group 5 Copy.png" alt="">
+								<p>行业会议</p>
+							</a>
+						</li>
+						<li>
+							<a href="http://m.research.ofweek.com/">
+								<img src="images/Group 2.png" alt="">
+								<p>行业研究</p>
+							</a>
+						</li>
+						<li>
+							<a href="http://m.htc.ofweek.com/">
+								<img src="images/Group 9.png" alt="">
+								<p>高科会</p>
+							</a>
+						</li>
+						<li>
+							<a href="http://m.ofweek.com/productcenter">
+								<img src="images/Group 12.png" alt="">
+								<p>产品试用</p>
+							</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+			<div id="main" class="container">
+				<div class="news-wrap" id="topnewslist">
+					<div class="head-news">
+						<a href="http://m.display.ofweek.com/2018-02/ART-8321303-8420-30197781.html">
+							<h3>头条</h3>
+							2017年中国厂商OLED面板出货量近1000万片
+						</a>
+					</div>
+					<div class="head-news">
+						<a href="http://m.lights.ofweek.com/2018-02/ART-220001-8500-30197734.html">
+							<h3>头条</h3>
+							欧普实施“商照＋家居”双引擎驱动模式
+						</a>
+					</div>
+					<div class="head-news">
+						<a href="http://m.libattery.ofweek.com/2018-02/ART-36002-8500-30197471.html">
+							<h3>头条</h3>
+							见微知著：从大企业分析三元材料前景
+						</a>
+					</div>
+					<ul class="news-list">
+						<li class="ad">
+							<a href="http://www.ofweek.com/seminar-wap/10178.html">
+								<h3>OFweek 2018德国汉诺威工业展及工业4.0考察团</h3>
+								<div class="thumb">
+									<img src="http://images.ofweek.com/Upload/mobile/2018-1/20/20180120112936_1516418976356.png" alt="OFweek 2018德国汉诺威工业展及工业4.0考察团">
+								</div>
+								<div class="item-info">
+									<span class="ad-flag">广告</span>
+									<span class="time"></span>
+								</div>
+							</a>
+						</li>
+						<li class="one-pic">
+							<a href="http://m.vr.ofweek.com/news/2018-02/ART-81500-8470-30197790.html">
+								<div class="info-wrap">
+									<h3>用VR领略文物的“前世今生”</h3>
+									<div class="item-info">
+										<span class="time">1小时前</span>
+										<input type="hidden" name="news_timstrap" value="1517878743443" />
+									</div>
+								</div>
+								<div class="thumb">
+									<img src="https://images.ofweek.com/Upload/NewsList/20182/15178786683465704898730744718572.jpg" alt="用VR领略文物的“前世今生”">
+								</div>
+							</a>
+						</li>
+						<li class="mult-pic">
+							<a href="http://m.display.ofweek.com/2018-02/ART-8321301-8470-30197787.html">
+								<h3>柔性AMOLED：“游戏化学习”市场驱动力</h3>
+								<div class="thumb">
+									<img src="https://images.ofweek.com/Upload/NewsList/20182/15178785853376812385610838433773.jpg" alt="柔性AMOLED：“游戏化学习”市场驱动力">
+									<img src="https://images.ofweek.com/Upload/NewsList/20182/15178785855563560374077833782758.jpg" alt="柔性AMOLED：“游戏化学习”市场驱动力">
+									<img src="https://images.ofweek.com/Upload/NewsList/20182/15178785858246302965189023377283.jpg" alt="柔性AMOLED：“游戏化学习”市场驱动力">
+								</div>
+								<div class="item-info">
+									<span class="time">1小时前</span>
+									<input type="hidden" name="news_timstrap" value="1517878662683" />
+								</div>
+							</a>
+						</li>
+						<li class="one-pic">
+							<a href="http://m.libattery.ofweek.com/2018-02/ART-36001-8460-30197785.html">
+								<div class="info-wrap">
+									<h3>猛狮科技：子公司获得政府补助2000万元</h3>
+									<div class="item-info">
+										<span class="time">1小时前</span>
+										<input type="hidden" name="news_timstrap" value="1517878655787" />
+									</div>
+								</div>
+								<div class="thumb">
+									<img src="https://images.ofweek.com/Upload/NewsList/20182/15178785914657853810855043697411.png" alt="猛狮科技：子公司获得政府补助2000万元">
+								</div>
+							</a>
+						</li>
+						<li class="ad">
+							<a href="http://d1.ofweek.com/www/delivery/ck.php?oaparams=2__bannerid=5369__zoneid=1259__cb=e14ca488ca__oadest=http%3A%2F%2Fclickc.admaster.com.cn%2Fc%2Fa95799%2Cb2166058%2Cc1994%2Ci0%2Cm101%2C8a2%2C8b2%2Ch">
+								<h3>光，无限可能</h3>
+								<div class="thumb">
+									<img src="http://images.ofweek.com/Upload/mobile/2017-12/1/20171201143141_1512109901100.png" alt="光，无限可能">
+								</div>
+								<div class="item-info">
+									<span class="ad-flag">广告</span>
+									<span class="time"></span>
+								</div>
+							</a>
+						</li>
+						<li class="one-pic">
+							<a href="http://m.smarthome.ofweek.com/2018-02/ART-91000-8450-30197784.html">
+								<div class="info-wrap">
+									<h3>苏宁海尔于上海五角场店推空气洗免费体验</h3>
+									<div class="item-info">
+										<span class="time">1小时前</span>
+										<input type="hidden" name="news_timstrap" value="1517878573790" />
+									</div>
+								</div>
+								<div class="thumb">
+									<img src="https://images.ofweek.com/Upload/NewsList/20182/15178784389231365329275123245894.jpg" alt="苏宁海尔于上海五角场店推空气洗免费体验">
+								</div>
+							</a>
+						</li>
+						<li class="no-pic">
+							<a href="http://m.libattery.ofweek.com/2018-02/ART-36001-8440-30197783.html">
+								<h3>工信部公布多项正极材料标准修订计划</h3>
+								<div class="item-info">
+									<span class="time">1小时前</span>
+									<input type="hidden" name="news_timstrap" value="1517878555493" />
+								</div>
+							</a>
+						</li>
+						<li class="mult-pic">
+							<a href="http://m.ee.ofweek.com/2018-02/ART-8400-2801-30197782.html">
+								<h3>博通加注“分手费”，高通是否会心动？</h3>
+								<div class="thumb">
+									<img src="https://images.ofweek.com/Upload/NewsList/20182/15178784633733385002831658201295.jpg" alt="博通加注“分手费”，高通是否会心动？">
+									<img src="https://images.ofweek.com/Upload/NewsList/20182/15178784635628484791985199562068.jpg" alt="博通加注“分手费”，高通是否会心动？">
+									<img src="https://images.ofweek.com/Upload/NewsList/20182/15178784636501196079183225264150.jpg" alt="博通加注“分手费”，高通是否会心动？">
+								</div>
+								<div class="item-info">
+									<span class="time">1小时前</span>
+									<input type="hidden" name="news_timstrap" value="1517878530220" />
+								</div>
+							</a>
+						</li>
+						<li class="no-pic">
+							<a href="http://m.robot.ofweek.com/2018-02/ART-8321203-8500-30197780.html">
+								<h3>机器人有无刑事责任能力应分情况对待</h3>
+								<div class="item-info">
+									<span class="time">1小时前</span>
+									<input type="hidden" name="news_timstrap" value="1517878438553" />
+								</div>
+							</a>
+						</li>
+						<li class="one-pic">
+							<a href="http://m.smarthome.ofweek.com/2018-02/ART-91000-8420-30197778.html">
+								<div class="info-wrap">
+									<h3>彩电市场整体销量不佳 但激光、大屏有亮点</h3>
+									<div class="item-info">
+										<span class="time">1小时前</span>
+										<input type="hidden" name="news_timstrap" value="1517878319523" />
+									</div>
+								</div>
+								<div class="thumb">
+									<img src="https://images.ofweek.com/Upload/NewsList/20182/15178782484315805604787516515366.jpg" alt="彩电市场整体销量不佳 但激光、大屏有亮点">
+								</div>
+							</a>
+						</li>
+						<li class="one-pic">
+							<a href="http://m.nev.ofweek.com/2018-02/ART-71011-8420-30197777.html">
+								<div class="info-wrap">
+									<h3>304批公告透露出新能源汽车市场几大信息</h3>
+									<div class="item-info">
+										<span class="time">1小时前</span>
+										<input type="hidden" name="news_timstrap" value="1517878313600" />
+									</div>
+								</div>
+								<div class="thumb">
+									<img src="https://images.ofweek.com/Upload/NewsList/20182/1517878247940243828908812675145.png" alt="304批公告透露出新能源汽车市场几大信息">
+								</div>
+							</a>
+						</li>
+						<li class="one-pic">
+							<a href="http://m.smarthome.ofweek.com/2018-02/ART-91000-8460-30197774.html">
+								<div class="info-wrap">
+									<h3>“狗猫狮虎”组织变革背后：大平台 新视野</h3>
+									<div class="item-info">
+										<span class="time">1小时前</span>
+										<input type="hidden" name="news_timstrap" value="1517878205263" />
+									</div>
+								</div>
+								<div class="thumb">
+									<img src="https://images.ofweek.com/Upload/NewsList/20182/15178781397631103359958395357455.jpg" alt="“狗猫狮虎”组织变革背后：大平台 新视野">
+								</div>
+							</a>
+						</li>
+						<li class="no-pic">
+							<a href="http://m.robot.ofweek.com/2018-02/ART-8321203-8500-30197772.html">
+								<h3>引路机器人等“黑科技”刷新你的春运印象</h3>
+								<div class="item-info">
+									<span class="time">1小时前</span>
+									<input type="hidden" name="news_timstrap" value="1517878154910" />
+								</div>
+							</a>
+						</li>
+						<li class="one-pic">
+							<a href="http://m.iot.ofweek.com/2018-02/ART-132213-8500-30197771.html">
+								<div class="info-wrap">
+									<h3>百度+莱茨狗≠区块链</h3>
+									<div class="item-info">
+										<span class="time">1小时前</span>
+										<input type="hidden" name="news_timstrap" value="1517878101107" />
+									</div>
+								</div>
+								<div class="thumb">
+									<img src="https://images.ofweek.com/Upload/NewsList/20182/15178780724731388676209171802458.png" alt="百度+莱茨狗≠区块链">
+								</div>
+							</a>
+						</li>
+						<li class="no-pic">
+							<a href="http://m.lights.ofweek.com/2018-02/ART-220001-8440-30197769.html">
+								<h3>佳欣LED车灯稳居欧美市场龙头</h3>
+								<div class="item-info">
+									<span class="time">1小时前</span>
+									<input type="hidden" name="news_timstrap" value="1517878032787" />
+								</div>
+							</a>
+						</li>
+						<li class="one-pic">
+							<a href="http://m.smarthome.ofweek.com/2018-02/ART-91000-8420-30197768.html">
+								<div class="info-wrap">
+									<h3>2018十大空气净化器排名</h3>
+									<div class="item-info">
+										<span class="time">1小时前</span>
+										<input type="hidden" name="news_timstrap" value="1517878017353" />
+									</div>
+								</div>
+								<div class="thumb">
+									<img src="https://images.ofweek.com/Upload/NewsList/20182/151787793535586486975687926142.jpg" alt="2018十大空气净化器排名">
+								</div>
+							</a>
+						</li>
+						<li class="one-pic">
+							<a href="http://m.auto.ofweek.com/2018-02/ART-70110-8500-30197765.html">
+								<div class="info-wrap">
+									<h3>上汽荣威：最懂你的互联网汽车</h3>
+									<div class="item-info">
+										<span class="time">1小时前</span>
+										<input type="hidden" name="news_timstrap" value="1517877814840" />
+									</div>
+								</div>
+								<div class="thumb">
+									<img src="https://images.ofweek.com/Upload/NewsList/20182/15178777267487272176206851548000.jpg" alt="上汽荣威：最懂你的互联网汽车">
+								</div>
+							</a>
+						</li>
+						<li class="no-pic">
+							<a href="http://m.solar.ofweek.com/2018-02/ART-260008-8460-30197764.html">
+								<h3>隆基股份拟19.41亿元扩建印度项目</h3>
+								<div class="item-info">
+									<span class="time">1小时前</span>
+									<input type="hidden" name="news_timstrap" value="1517877803497" />
+								</div>
+							</a>
+						</li>
+						<li class="one-pic">
+							<a href="http://m.ee.ofweek.com/2018-02/ART-8400-2803-30197763.html">
+								<div class="info-wrap">
+									<h3>追逐风口 智能手机三颗摄像头胜算几何？</h3>
+									<div class="item-info">
+										<span class="time">1小时前</span>
+										<input type="hidden" name="news_timstrap" value="1517877783733" />
+									</div>
+								</div>
+								<div class="thumb">
+									<img src="https://images.ofweek.com/Upload/NewsList/20182/15178777187243903971832223896039.jpg" alt="追逐风口 智能手机三颗摄像头胜算几何？">
+								</div>
+							</a>
+						</li>
+						<li class="one-pic">
+							<a href="http://m.gongkong.ofweek.com/2018-02/ART-310010-8500-30197762.html">
+								<div class="info-wrap">
+									<h3>传统制造业如何跑赢“智造”这场比赛</h3>
+									<div class="item-info">
+										<span class="time">1小时前</span>
+										<input type="hidden" name="news_timstrap" value="1517877752937" />
+									</div>
+								</div>
+								<div class="thumb">
+									<img src="https://images.ofweek.com/Upload/NewsList/20182/15178776839342481017832258354093.jpg" alt="传统制造业如何跑赢“智造”这场比赛">
+								</div>
+							</a>
+						</li>
+						<li class="no-pic">
+							<a href="http://m.robot.ofweek.com/2018-02/ART-8321206-8500-30197758.html">
+								<h3>展望2018：人工智能将重塑哪些行业</h3>
+								<div class="item-info">
+									<span class="time">1小时前</span>
+									<input type="hidden" name="news_timstrap" value="1517877539710" />
+								</div>
+							</a>
+						</li>
+						<li class="no-pic">
+							<a href="http://m.gongkong.ofweek.com/2018-02/ART-310002-8500-30197755.html">
+								<h3>自动化领域最新动态一览（二月第一期）</h3>
+								<div class="item-info">
+									<span class="time">2小时前</span>
+									<input type="hidden" name="news_timstrap" value="1517877405747" />
+								</div>
+							</a>
+						</li>
+					</ul>
+				</div>
+				<div class="loadmoretip">上拉显示更多</div>
+			</div>
+		</div>
+	</div>
+	</div>
+
+
+	<script type="text/javascript" src="http://m.ofweek.com/newsite/js/zepto.min.js"></script>
+	<script type="text/javascript" src="http://m.ofweek.com/newsite/js/zepto.cookie.min.js"></script>
+	<script type="text/javascript" src="http://m.ofweek.com/newsite/js/fastclick.js"></script>
+	<script type="text/javascript" src="http://m.ofweek.com/newsite/js/swiper.min.js"></script>
+	<script type="text/javascript" src="http://m.ofweek.com/newsite/js/baiduTemplate.js"></script>
+	<script type="text/javascript" src="http://m.ofweek.com/newsite/js/iscroll-probe.js"></script>
+	<script type="text/javascript" src="js/main.js?v=201709254"></script>
+	<script type="text/javascript" src="http://m.ofweek.com/newsite/js/pull_load.js?v=1"></script>
+	<script type="text/javascript">
+		$(function () {
+			initFocusPictureNewsList();
+			initTopNewsList();
+			initNewsList();
+		});
+	</script>
+	<script id='templateFocusPictureNews' type="text/template">
+		<%　for(var i=0;i<focusnewslist.length;i++){ %>
+			<% var news=focusnewslist[i]; %>
+				<div class="swiper-slide">
+					<a href="<%=news.HtmlPath.replace('http:\/\/','http:\/\/m.')%>">
+						<img src="http://m.images.ofweek.com/Upload/News/<%=news.PictureUrls%>">
+					</a>
+					<p>
+						<a href="<%=news.HtmlPath.replace('http:\/\/','http:\/\/m.')%>">
+							<%=news.SubTitle%>
+						</a>
+					</p>
+				</div>
+				<% } %>
+	</script>
+	<script id='templateTopnews' type="text/template">
+		<%　for(var i=0;i<topnewslist.length;i++){ %>
+			<% var news=topnewslist[i]; %>
+				<div class="head-news">
+					<a href="<%=news.htmlpath.replace('http:\/\/', 'http:\/\/m.')%>">
+						<h3>头条</h3>
+						<%=news.subtitle%>
+					</a>
+				</div>
+				<% } %>
+	</script>
+	<script id='templatestr1' type="text/template">
+		<%　for(var i=0;i<list.length;i++){ %>
+			<% var news=list[i]; %>
+				<%　if(news.type == '100'){ %>
+					<% if(news.listpic1!=null && news.listpic1 != '' && news.listpic2!=null  && news.listpic2 != '' && news.listpic3!=null  && news.listpic3 != ''){ %>
+						<li class="mult-pic">
+							<a href="<%=news.htmlpath.replace('http:\/\/', 'http:\/\/m.') %>">
+								<h3>
+									<%=news.subtitle %>
+								</h3>
+								<div class="thumb">
+									<img src="<%=news.listpic1 %>" alt="<%=news.subtitle %>">
+									<img src="<%=news.listpic2 %>" alt="<%=news.subtitle %>">
+									<img src="<%=news.listpic3 %>" alt="<%=news.subtitle %>">
+								</div>
+								<div class="item-info">
+									<span class="time">
+										<%=news.addtime %>
+									</span>
+								</div>
+							</a>
+						</li>
+						<%}else if(news.listpic1!=null  && news.listpic1 != ''){ %>
+							<li class="one-pic">
+								<a href="<%=news.htmlpath.replace('http:\/\/', 'http:\/\/m.') %>">
+									<div class="info-wrap">
+										<h3>
+											<%=news.subtitle %>
+										</h3>
+										<div class="item-info">
+											<span class="time">
+												<%=news.addtime %>
+											</span>
+										</div>
+									</div>
+									<div class="thumb">
+										<img src="<%=news.listpic1 %>" alt="<%=news.subtitle %>">
+									</div>
+								</a>
+							</li>
+							<%}else{ %>
+								<li class="no-pic">
+									<a href="<%=news.htmlpath.replace('http:\/\/', 'http:\/\/m.') %>">
+										<h3>
+											<%=news.subtitle %>
+										</h3>
+										<div class="item-info">
+											<span class="time">
+												<%=news.addtime %>
+											</span>
+										</div>
+									</a>
+								</li>
+								<% } %>
+									<%} else if(news.type == '101'){ %>
+										<li class="ad">
+											<a href="<%=news.adurl %>">
+												<h3>
+													<%=news.adtitle %>
+												</h3>
+												<div class="thumb">
+													<img src="<%=news.adimg %>" alt="<%=news.adtitle %>">
+												</div>
+												<div class="item-info">
+													<span class="ad-flag">广告</span>
+													<span class="time"></span>
+												</div>
+											</a>
+										</li>
+										<% } %>
+											<% } %>
+	</script>
+	<script type="text/javascript">
+		myScroll = new IScroll("#hot-items-wrap", {
+			scrollX: true,
+			scrollY: false,
+			hScrollbar: false,
+			vScrollbar: false,
+			vScroll: false,
+			scrollbars: false,
+			mouseWheel: true,
+			interactiveScrollbars: true,
+			fadeScrollbars: true,
+			preventDefault: false,
+			preventDefaultException: {
+				tagName: /^(INPUT|TEXTAREA|BUTTON|SELECT|A)$/
+			}
+		});
+	</script>
+	<script src="http://res.wx.qq.com/open/js/jweixin-1.2.0.js"></script>
+	<script src="http://m.ofweek.com/js/weixin_share.js?v=20170911"></script>
+	<script type="text/javascript">
+		var _hmt = _hmt || [];
+		(function () {
+			var hm = document.createElement("script");
+			hm.src = "//hm.baidu.com/hm.js?af50e2fc51af73da7720fb324b88a975";
+			var s = document.getElementsByTagName("script")[0];
+			s.parentNode.insertBefore(hm, s);
+		})();
+	</script>
+</body>
+
+</html>
